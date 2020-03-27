@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Share+Tech&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Audiowide&display=swap');
+
+body {
+    align-content: center;
+    background-color: rgb(201, 234, 245);
+}
+
+h1, input, .header{
+    align-content: center;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Righteous', cursive;
+}
+
+.header {
+    padding-bottom: 30px;
+}
+
+input {
+    font-size: 14px;
+    border: solid 2px darkcyan;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 25px;
+}
+
+.city_ref {
+    padding: 4px;
+    font-family: 'Audiowide', cursive;
+}
+
+button {
+    border: none;
+    color: snow;
+    font-size: 14px;
+    margin: 2px 2px;
+    box-shadow: none;
+    background-color: darkcyan;
+    text-decoration: none;
+    display: inline-block;
+    padding: 7px 16px;
+
+}
+
+.weather-container {
+    background-color: rgb(138, 207, 230);
+    width: 100px;
+    text-align: center;
+    border-radius: 15px;
+    border: 3px solid navy;
+    padding: 5px;
+    /* Centering the object */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.temp {
+  font-family: 'Share Tech', sans-serif;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.city {
+    font-size: 17px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.tp {
+    display: grid;
+    grid-template-columns: auto 35% 10% auto;
+    grid-column-gap: 0px;
+    cursor: default;
+}
+
+.temp_unit {
+    margin-left: 3px;
+    font-size: 15px;
+    color: rgb(43, 43, 43);
+    font-family: 'Times New Roman', Times, serif;
+    cursor: default;
+}
+
+.weather {
+    font-family: 'Montserrat', sans-serif;
+}
+
+@media only screen and (max-width: 500px) {
+    
+
+
+}
